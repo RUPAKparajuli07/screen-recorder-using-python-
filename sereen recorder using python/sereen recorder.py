@@ -1,5 +1,3 @@
-#At first install the GUIS
-
 import cv2
 import pyautogui
 import tkinter as tk
