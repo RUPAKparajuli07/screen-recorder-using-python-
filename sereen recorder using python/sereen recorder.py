@@ -24,7 +24,7 @@ cv2.namedWindow('Screen Recording')
 is_microphone_on = tk.BooleanVar()
 is_microphone_on.set(True)
 
-# Create a checkbox for the microphone
+# Create a checkbox for the microphone   
 microphone_checkbox = tk.Checkbutton(window, text="Microphone", font=("Arial", 12), variable=is_microphone_on)
 microphone_checkbox.pack(pady=5)
 
